@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+    <link rel="stylesheet" href="./stayle.css">
+    <link rel="shortcut icon" href="./back.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="d1">
+        <h1>Sign Up</h1>
+        <p id="p1">It's quick and easy.</p><hr>
+        <form action="./nextpage.html">
+            <div id="d2">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="firstname"></label><br>
+                            <input type="text" name="firstname" id="fn" placeholder="First name" required><br>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="surname"></label><br>
+                            <input type="text" name="surname" id="sn" placeholder="Surname" required><br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="d3">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="email adderss"></label><br>
+                            <input type="email" name="email adderss" id="ea" placeholder="Mobile number or email adderss" required><br>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="password"></label><br>
+                            <input type="password" name="password" id="pass" placeholder="New password" required><br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <label for="dob" id="dob">Date of birth</label><br>
+            <div id="d4">
+                <table>
+                    <tr>
+                        <td>
+                            <select name="day" id="date" required>
+                                <option value="text">8</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <select name="month" id="mon" required>
+                                <option value="text">Jul</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <select name="year" id="year" required>
+                                <option value="text">2024</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="d5">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="gender"></label>Gender<br>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="male" placeholder="">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="custom">Custom</label>
+                            <input type="radio" name="gender" id="custom"><br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p>People who use our service may have uploaded your contact information to Facebook.<span id="s1">Learn more</span></p>
+            <p>By clicking Sign Up,you agree to our <span id="s2">Term</span>,<span id="s3">Privacy Policy</span> and <span id="s4">Cookies Policy</span>.<br>You may recieve SMS notification from us and can otp out at any time.</p>
+            <center><input type="submit" value="Sign Up" id="btn"></center>  
+        </form>
+    </div>
+</body>
+</html>
